@@ -17,6 +17,7 @@ Similar to [unique-names-generator](https://github.com/andreasonny83/unique-name
 ## Included word lists
 - `xkcd.txt`: the dictionary for [XKCD](https://xkcd.com/)'s [Simple Writer](https://xkcd.com/simplewriter/), [Up Goer Five](https://xkcd.com/1133/), and [Thing Explainer](https://blog.xkcd.com/2015/05/13/new-book-thing-explainer/), minus contractions.
 - `google-10000.txt`: the top 10,000 most common English words from [Google's Trillion Word Corpus](https://books.google.com/ngrams/info), minus swear words.
+- `left-hand-only.txt`: the subset of `google-10000.txt` which only contains the words which can be typed using only the left hand on a QWERTY keyboard.
 - `gfycat.txt`: the adjectives and animal names that [gfycat](https://gfycat.com/) uses to generate URLs.
 - `bip39.txt`: the word list used to make [BIP39 mnemonic phrases](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki) for generating Bitcoin wallets.
 - `echohash.txt`: the word list used for Gemini's [Echo Hash](https://echohash.net/) utility, which transforms a hash into an English phrase.

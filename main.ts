@@ -8,10 +8,23 @@ const { words, separator, length } = parse(Deno.args, {
   }
 });
 
-const dictionary: string[] = [];
-await Deno.readTextFile(words).then(f => dictionary.push(...f.split(/\r?\n/)));
+function abort(error: Error) {
+  console.error(error);
+  Deno.exit(1);
+}
 
-const rand = new Uint16Array(parseInt(length));
+// Validate and process words argument
+const dictionary: string[] = [];
+await Deno.readTextFile(words)
+  .then(f => dictionary.push(...f.split(/\r?\n/)))
+  .catch(abort); // Will throw if an invalid file path is given
+
+// Validate and process length argument
+const len = parseInt(length);
+if (isNaN(len)) {
+  abort(new TypeError(`${length} is not a number.`));
+}
+const rand = new Uint16Array(len);
 crypto.getRandomValues(rand);
 
 const output: string[] = [];

@@ -11,7 +11,7 @@ Similar to [unique-names-generator](https://github.com/andreasonny83/unique-name
 
 ## Flags
 - `--words`: path to a word list file where each word is delimited by a newline. Default value is `./words/xkcd.txt`.
-- `--separator`: string to insert in between each word in the output. Default value is `-`.
+- `--separator`: a character to insert in between each word in the output. If multiple characters are provided, a random character is picked for each separator. Default value is `-`.
 - `--length`: the number of words to output. Default value is `3`.
 
 ## Included word lists

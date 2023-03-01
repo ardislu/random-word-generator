@@ -37,9 +37,7 @@ Similar to
 - `bip39.txt`: the word list used to make
   [BIP39 mnemonic phrases](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki)
   for generating Bitcoin wallets.
-- `echohash.txt`: the word list used for Gemini's
-  [Echo Hash](https://echohash.net/) utility, which transforms a hash into an
-  English phrase.
+- `eff-large-wordlist.txt`: the five-dice word list used for EFF's dice-generated passphrases.
 
 ## Word list sources
 
@@ -48,4 +46,4 @@ Similar to
 - [gfycat adjectives](http://assets.gfycat.com/adjectives) and
   [gfycat animals](http://assets.gfycat.com/animals)
 - [BIP39 English word list](https://github.com/bitcoin/bips/blob/master/bip-0039/english.txt)
-- [echohash](https://github.com/gemini/echohash/blob/master/src/wordlists/en_eff_long.js)
+- [EFF Dice-Generated Passphrases](https://www.eff.org/dice)

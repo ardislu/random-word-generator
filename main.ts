@@ -1,4 +1,4 @@
-import { parse } from "https://deno.land/std@0.180.0/flags/mod.ts";
+import { parse } from "https://deno.land/std@0.183.0/flags/mod.ts";
 
 const { words, separator, length } = parse(Deno.args, {
   default: {

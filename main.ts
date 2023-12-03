@@ -1,6 +1,6 @@
-import { parse } from "https://deno.land/std@0.204.0/flags/mod.ts";
+import { parseArgs } from "https://deno.land/std@0.208.0/cli/mod.ts";
 
-const { words, separator, length } = parse(Deno.args, {
+const { words, separator, length } = parseArgs(Deno.args, {
   default: {
     "words": "./words/xkcd.txt",
     "separator": "-",

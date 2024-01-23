@@ -1,11 +1,11 @@
 {
   "version": "3",
   "remote": {
-    "https://deno.land/std@0.210.0/assert/assert.ts": "e265ad50a9341f3b40e51dd4cb41ab253d976943ba78a977106950e52e0302ab",
-    "https://deno.land/std@0.210.0/assert/assertion_error.ts": "26ed1863d905005f00785c89750c001c3522c5417e4f58f95044b8143cfc1593",
-    "https://deno.land/std@0.210.0/cli/mod.ts": "aa5efceec167fb78c7954227c061d3d249c752c51a6dc1886ee18649d2690a44",
-    "https://deno.land/std@0.210.0/cli/parse_args.ts": "9bea02050b3f302e706871ff87ecfa3ad82cc34249adbe0dcddfaac75bdb48ff",
-    "https://deno.land/std@0.210.0/cli/prompt_secret.ts": "1fb2a981c1061e130475e326b344397448ec5dd5158b31266fd44fa864165de7",
-    "https://deno.land/std@0.210.0/cli/spinner.ts": "d3465997979eaafb533e265e81deb66c1b4074c4417aec75adf2c05c850042df"
+    "https://deno.land/std@0.212.0/assert/assert_exists.ts": "24a7bf965e634f909242cd09fbaf38bde6b791128ece08e33ab08586a7cc55c9",
+    "https://deno.land/std@0.212.0/assert/assertion_error.ts": "9f689a101ee586c4ce92f52fa7ddd362e86434ffdf1f848e45987dc7689976b8",
+    "https://deno.land/std@0.212.0/cli/mod.ts": "58f75df8ce43fb8266bdd26ec4465f73176b910316d72eb8e090b6a0549391da",
+    "https://deno.land/std@0.212.0/cli/parse_args.ts": "cc3e9ac1684a65bada17dbfe1b53cd7c1b1ce1f009fdd1ddb1d62e53a3d9732f",
+    "https://deno.land/std@0.212.0/cli/prompt_secret.ts": "e4e9ed459ff1eca5bc3bca5ff35877e618e805e5aa1b32a4bdf14667682e0c7e",
+    "https://deno.land/std@0.212.0/cli/spinner.ts": "1b43be320f867720905aa65a1814ca68ff00247b4697ecf374e4b051873ace60"
   }
 }

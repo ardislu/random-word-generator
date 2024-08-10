@@ -4,7 +4,7 @@ A [Deno](https://deno.land/) CLI which returns a string of random words from a
 given word list.
 
 ```
-> deno run --lock --allow-read ./main.ts
+> deno run --lock --allow-read=./words ./main.ts
 > cheeking-signs-riches
 ```
 

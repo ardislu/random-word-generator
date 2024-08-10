@@ -2,18 +2,11 @@
   "version": "3",
   "packages": {
     "specifiers": {
-      "jsr:@std/assert@^0.225.3": "jsr:@std/assert@0.225.3",
-      "jsr:@std/cli@0.224.4": "jsr:@std/cli@0.224.4"
+      "jsr:@std/cli@1.0.3": "jsr:@std/cli@1.0.3"
     },
     "jsr": {
-      "@std/assert@0.225.3": {
-        "integrity": "b3c2847aecf6955b50644cdb9cf072004ea3d1998dd7579fc0acb99dbb23bd4f"
-      },
-      "@std/cli@0.224.4": {
-        "integrity": "1f6a8fb983013e7743393e144d05c15094debc6f79032e32441846ef6196c9a3",
-        "dependencies": [
-          "jsr:@std/assert@^0.225.3"
-        ]
+      "@std/cli@1.0.3": {
+        "integrity": "9a0488b5d2e58d29dce106a941eecec7181fae996bf0d2225563f1ca7e4b100c"
       }
     }
   },

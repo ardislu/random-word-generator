@@ -1,4 +1,4 @@
-import { parseArgs } from "jsr:@std/cli@1.0.13";
+import { parseArgs } from "jsr:@std/cli@1.0.17";
 
 const { words, separator, length } = parseArgs(Deno.args, {
   default: {

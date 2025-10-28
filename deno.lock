@@ -1,11 +1,18 @@
 {
   "version": "5",
   "specifiers": {
-    "jsr:@std/cli@1.0.20": "1.0.20"
+    "jsr:@std/cli@1.0.23": "1.0.23",
+    "jsr:@std/internal@^1.0.12": "1.0.12"
   },
   "jsr": {
-    "@std/cli@1.0.20": {
-      "integrity": "a8c384a2c98cec6ec6a2055c273a916e2772485eb784af0db004c5ab8ba52333"
+    "@std/cli@1.0.23": {
+      "integrity": "bf95b7a9425ba2af1ae5a6359daf58c508f2decf711a76ed2993cd352498ccca",
+      "dependencies": [
+        "jsr:@std/internal"
+      ]
+    },
+    "@std/internal@1.0.12": {
+      "integrity": "972a634fd5bc34b242024402972cd5143eac68d8dffaca5eaa4dba30ce17b027"
     }
   }
 }
